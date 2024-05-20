@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/E-tech/static/css/main.541f1c41.css",
-    "main.js": "/E-tech/static/js/main.f0215b9d.js",
+    "main.js": "/E-tech/static/js/main.d2ff37ca.js",
     "static/media/projects icon.png": "/E-tech/static/media/projects icon.9df7dc8306f8ceeff05b.png",
     "static/media/main menu.png": "/E-tech/static/media/main menu.72fe02e1a6fc1ece33f6.png",
     "static/media/lesson-icon--transformed.png": "/E-tech/static/media/lesson-icon--transformed.917f5ac7b6239e0e6ac1.png",
@@ -9,10 +9,10 @@
     "static/media/projects icon 1.png": "/E-tech/static/media/projects icon 1.1aa9c8f17a27be466ba7.png",
     "index.html": "/E-tech/index.html",
     "main.541f1c41.css.map": "/E-tech/static/css/main.541f1c41.css.map",
-    "main.f0215b9d.js.map": "/E-tech/static/js/main.f0215b9d.js.map"
+    "main.d2ff37ca.js.map": "/E-tech/static/js/main.d2ff37ca.js.map"
   },
   "entrypoints": [
     "static/css/main.541f1c41.css",
-    "static/js/main.f0215b9d.js"
+    "static/js/main.d2ff37ca.js"
   ]
 }
