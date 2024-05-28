@@ -1,0 +1,233 @@
+#navBar{
+    font-family:'Times New Roman', Times, serif !important;
+    font-size: 20px;
+    width:100% !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    text-decoration: none;
+    
+    
+  }
+.navbar{
+    background-color: white !important;
+
+}
+.logo{
+    color: 'white';
+font-size: 40px;
+font-family: 'Markazi text';
+font-weight: bold;
+word-Wrap: 'break-word';
+position: absolute;
+top: -2%;
+left: 88%;
+
+}
+#etech{
+    text-decoration: none;
+    font-family: 'Markazi text';
+    font-weight:bolder;
+    font-size: 2rem;
+    width: 5.2%;
+    position: absolute;
+    left: 1%;
+    top:7px;
+
+}
+#etech:hover{
+    color: #61DBFB !important;
+}
+#navi{
+    background-color: white !important;
+
+}
+.ebrand {
+    /* قواعد CSS العامة */
+    /* background-color: black; */
+    color: white;
+    position: relative;
+    left: 4.6%;
+    top: -1px ;
+}
+
+/* قواعد CSS خاصة بشاشات عرضها أقل من 600 بكسل */
+@media screen and (max-width: 1000px) {
+    .ebrand {
+        /* background-color: black; */
+        color: white;
+        position: relative;
+        left: -32%;
+    }
+}
+
+/* تنسيق مخصص عندما يكون عرض الشاشة أصغر من 400 بكسل */
+/* @media screen and (max-width: 400px) {
+    .ebrand{
+        color: white;
+        position: relative;
+        right: 0.6%;
+        top: -1px ;
+        
+    }
+} */
+.ebrand:hover{
+    cursor: pointer;
+}
+#home{
+    text-decoration: none;
+    font-weight: '600' !important;
+    word-wrap: 'break-word';
+    font-size: 22.09;
+}
+.telegram{
+    position: absolute;
+    left: 400px;
+    top: 21%;
+}
+#vector{
+    position: absolute;
+    left: 200px;
+    top: 21%;
+}
+.facebook{
+    position: absolute;
+    left: 332px;
+    top: 21%;
+}
+.home{
+    color: black !important;
+    font-family: 'Markazi Text';
+    
+}
+.home:hover{
+    color: #61DBFB !important;
+    text-decoration-color: #61DBFB !important ;
+    text-decoration-style: solid !important;
+  
+   
+}
+#products{
+    color: black !important;
+    font-family: 'Markazi Text';
+     font-weight: '400';
+     font-size: 1.3rem;
+      word-wrap: 'break-word';
+      font-size: 22.09 ;
+      position: absolute;
+      top:5%;
+      left: 794px;
+}
+#products:hover{
+    color: #61DBFB !important;
+    text-decoration-color: #61DBFB !important ;
+    text-decoration-style: solid !important;
+   
+}
+#about{
+    color: black !important;
+    font-family: 'Markazi Text';
+     font-weight: '400';
+     font-size: 1.3rem;
+      word-wrap: 'break-word';
+      font-size: 22.09 ;
+      position: absolute;
+      top:5%;
+      left: 684px;
+}
+#about:hover{
+    color: #61DBFB !important;
+    text-decoration-color: #61DBFB !important ;
+    text-decoration-style: solid !important;
+    
+}
+#news{
+    color: black !important;
+    font-family: 'Markazi Text';
+     font-weight: '400';
+     font-size: 1.3rem;
+      word-wrap: 'break-word';
+      font-size: 22.09 ;
+      position: absolute;
+      top:5%;
+      left:580px;
+}
+#news:hover{
+    color: #61DBFB !important;
+    text-decoration-color: #61DBFB !important ;
+    text-decoration-style: solid !important;
+   
+}
+#faq{
+    color: black !important;
+    font-family: 'Markazi Text';
+     font-weight: '400';
+     font-size: 1.3rem;
+      word-wrap: 'break-word';
+      font-size: 22.09 ;
+      position: absolute;
+      top:5%;
+      left:480px;
+}
+#faq:hover{
+    color: #61DBFB !important;
+    text-decoration-color: #61DBFB !important ;
+    text-decoration-style: solid !important;
+  
+}
+
+
+#search{
+    position: absolute;
+    background-color: #D9D9D9;
+    left: 55.5%;
+    direction: rtl;
+    border-radius: 24px;
+    width: 31.4vw;
+    height: 6.7vh;
+    /* margin-right: 60px !important;
+     */
+}
+
+
+#toggle{
+    background-color:  #D9D9D9 !important;
+    
+    
+}
+.login{
+    font-family: 'markazi text';
+    font-size: 1.2rem;
+    position: absolute;
+    left: 88.4%;
+    top: 22%;
+}
+.login:hover{
+    color: #61DBFB !important;
+    cursor: pointer;
+}
+.loginl:hover{
+    cursor: pointer;
+}
+#dashboard{
+    color: black !important;
+    font-family: 'Markazi Text';
+     font-weight: '400';
+     font-size: 1.3rem;
+      word-wrap: 'break-word';
+      font-size: 22.09 ;
+      position: absolute;
+      top:17%;
+      left:360px;
+}
+#dashboard:hover{
+    cursor: pointer;
+    color: #61DBFB !important;
+    text-decoration-color: #61DBFB !important ;
+    text-decoration-style: solid !important;
+  
+}
+#profile:hover{
+    cursor: pointer;
+    color: #61DBFB !important;
+
+}

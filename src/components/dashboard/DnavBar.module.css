@@ -1,0 +1,25 @@
+#etech{
+    text-decoration: none;
+    font-family: 'Markazi text';
+    font-weight:bolder;
+    font-size: 2rem;
+    width: 5.2%;
+    position: absolute;
+    left: 4%;
+    top:7px;
+
+}
+#etech:hover{
+    color: #61DBFB !important;
+}
+.ebrand{
+    /* background-color: black; */
+    color: white;
+    position: relative;
+    left: 40%;
+    top: 10px ;
+    
+}
+.ebrand:hover{
+    cursor: pointer;
+}

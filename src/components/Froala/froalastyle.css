@@ -1,0 +1,19 @@
+#primaryButton{
+    position: relative;
+    top:43px;
+    right:380px;
+    font-family: 'Markazi text';
+}
+#successButton{
+    position: relative;
+    top:44px;
+    right:140px;
+    font-family: 'Markazi text';
+}
+#dangerButton{
+    position: relative;
+    height: 36px;
+    top:43px;
+    right:560px;
+    font-family: 'Markazi text';
+}

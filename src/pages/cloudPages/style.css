@@ -1,0 +1,431 @@
+/* for all cloud pages */
+.container{
+    position:absolute;
+    z-index: 100 !important;
+    background-color: #283141 !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) !important;
+    width:92%;
+    height:88%;
+    top:58px;
+    left:1%;
+    border-radius: 8px !important;
+    background-color: rgb(51, 55, 62) !important ;
+}
+/* for cloud NavBar */
+#dropp{
+    position: absolute !important;
+    right: 464px !important;
+    top: -24px !important;
+    z-index: 100 !important;
+
+}
+#drop2{
+    position: absolute !important;
+    top: 8px !important;
+    left:46px !important;
+
+}
+.list{
+    position:absolute;
+    z-index: 100 !important;
+    background-color: #fff !important;
+    border: 1px solid #ccc !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) !important;
+    top:34px;
+    left:76px;
+    border-radius: 8px !important;
+    background-color: white !important ;
+}
+#x:hover{
+    cursor: pointer;
+}
+.deviceSelect{
+    width: 80px;
+    color: white;
+    background-color: none;
+    position: relative;
+    left: 90%;
+    padding:12;
+    bottom:120%;
+}
+.deviceSelect:hover{
+    cursor: pointer;
+}
+.devicelist{
+    list-style-type: none;
+    padding: 0;
+    width:104px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid white;
+    
+}
+.optionlist{
+    border-radius: 5px;
+    color:black;
+  background-color: none !important;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.optionlist:hover{
+    width:100px !important;
+    background-color: #bab3b3;
+    cursor: pointer;
+}
+/* devEnv style */
+.devEnv-logo{
+    position: relative;
+    left:89%;
+    top:4%;
+}
+.boardname{
+
+    font-family: 'Markazi text';
+    font-size: 2rem;
+    z-index: 1000;
+    color: white;
+    position: relative;
+    left: 79%;
+    bottom:17%;
+    text-align: right;
+    width:94px;
+
+}
+.projecticon{
+    position: relative;
+    left:85.6%;
+    bottom:18%
+}
+.projectName{
+    font-family: 'Markazi text';
+    font-size: 1rem;
+    z-index: 1000;
+    color: white;
+    position: relative;
+    left: 73.5%;
+    bottom:22.5%;
+    text-align: right;
+    width:12%;
+}
+.pName{
+    color: #007ACC;
+}
+.boardstatuson{
+    margin-left: 814px;
+    margin-right: 100px;
+    position: relative;
+    bottom: 37.8%;
+    width: 48px;
+    height: 24px;
+    margin-right: 10px;
+    padding-right: 8px;
+    background: rgba(23.14, 97.36, 11.06, 0.97);
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+.boardstatusoff{
+    margin-left: 814px;
+    margin-right: 100px;
+    position: relative;
+    bottom: 37.8%;
+    width: 48px;
+    height: 24px;
+    margin-right: 10px;
+    padding-right: 4px;
+    background: rgba(162, 23, 23, 0.97);
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+.controllers{
+    direction: rtl;
+    position: relative;
+    bottom: 18%;
+    height: auto;
+}
+.card-body{
+    border: none;
+    border-radius: 8px;
+    background-color: #33373E !important;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.Ecard-body{
+    border: none;
+    border-radius: 8px;
+    background-color: #33373E !important;
+    box-shadow: 2px 2px 2px 2px black;
+    padding:4%;
+
+}
+.card{
+    width: 140px;
+    background-color: #33373E !important;
+    justify-content: space-between;
+}
+#sName{
+    font-family: 'Markazi text';
+    font-size: 1.3rem;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+/* project page style */
+.project-logo{
+    position: relative;
+    top:4%;
+    left: 50%;
+
+}
+.pageName{
+    color: white;
+    position: relative;
+    left:48%;
+    top:4%;
+    font-family: 'Markazi text';
+    font-size: 1.2rem;
+}
+.projectsCard{
+    direction: rtl;
+    position: relative;
+    bottom: 6%;
+    height: auto;
+}
+.project-card{
+    width: 140px;
+    background-color: #33373E !important;
+    justify-content: center;
+}
+h5{
+    position: relative !important;
+    top: 18px;
+    color: white !important;
+    height: 60px;
+    align-items: center;
+}
+.card-title{
+    border-radius:  8px 8px 0px 0px;
+    width:138px;
+    height: 100px;
+    position: relative;
+    bottom:16px;
+    left: 14.4%;
+    background-color: #007ACC !important;
+    margin-bottom: -32px;
+}
+.card-title-sensors{
+    border-radius:  8px 8px 0px 0px;
+    width:138px;
+    height: 60px;
+    position: relative;
+    bottom:16px;
+    left: 14.4%;
+    background-color: #007ACC !important;
+    margin-bottom: -32px;
+}
+.cardHeader{
+    font-family: 'Lemonada';
+    font-size: 2rem;
+    position: relative;
+    top:30px;
+    right: 40%;
+}
+#board_id{
+    position: relative;
+    left:16px;
+}
+.cardHeader-sensors{
+    font-family: 'Lemonada';
+    font-size: 1.8rem;
+    position: relative;
+    top:8px;
+    right: 44%;
+}
+.Dcard-text{
+    height: 10px;
+    color: white;
+    font-family: 'Markazi Text';
+    font-size: 1.4rem;
+    position: relative;
+    bottom: 8px;
+}
+.SpageName{
+    color: white;
+    position: relative;
+    left:47.5%;
+    top:4%;
+    font-family: 'Markazi text';
+    font-size: 1.2rem;
+}
+/* modal style */
+
+.modal-header{
+    background-color: rgba(0, 122, 204, 1) !important;
+}
+.modaltitle{
+    position: relative;
+    left: 140%;
+    color: white;
+    font-weight: '800';
+    font-size: 1.8rem;
+    font-family: 'Markazi text';
+}
+
+/* design of sensors */
+
+/* switch */
+.bauble_box .bauble_label {
+    background: #2c2;
+    background-position: 62px 5px;
+    background-repeat: no-repeat;
+    background-size: auto 5px;
+    border: 0;
+    border-radius: 50px;
+    box-shadow: inset 0 10px 20px rgba(0,0,0,.4), 0 -1px 0px rgba(0,0,0,.2), inset 0 -1px 0px #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0;
+    height: 30px;
+    position: relative;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    width: 70px;
+  }
+  
+  .bauble_box .bauble_label:before {
+    background-color: rgba(255,255,255,.2);
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: 30% auto;
+    border-radius: 50%;
+    box-shadow: inset 0 -5px 25px #050, 0 10px 20px rgba(0,0,0,.4);
+    content: '';
+    display: block;
+    height: 24px;
+    left: 5px;
+    position: absolute;
+    top: 3px;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    width: 24px;
+    z-index: 2;
+  }
+  
+  .bauble_box input.bauble_input {
+    opacity: 0;
+    z-index: 0;
+  }
+  
+  /* Checked */
+  .bauble_box input.bauble_input:checked + .bauble_label {
+    background-color: #c22;
+  }
+  
+  .bauble_box input.bauble_input:checked + .bauble_label:before {
+    background-position: 150% 0;
+    box-shadow: inset 0 -5px 25px #500, 0 10px 20px rgba(0,0,0,.2);
+    left: calc( 100% - 28px );
+  }
+  .bauble_box{
+    position: relative;
+    bottom: 16px;
+    right:6px;
+  }
+/* temprature */
+#temp{
+    position: relative;
+    right: 12px;
+    bottom:8px;
+    font-size: 1.8rem;
+    color: white;
+    font-weight: bold;
+}
+/* humidity */
+#hum{
+    font-weight: bold;
+    position: relative;
+    right: 10px;
+    bottom:8px;
+    font-size: 1.8rem;
+    color: white;
+
+}
+
+/* Light */
+#light{
+    position: relative;
+    bottom:12px;
+    right: 32%;
+    margin-bottom: 8px;
+
+}
+
+/* The switch - the box around the speaker*/
+#speaker{
+    position: relative;
+    right: 27%;
+    bottom: 8px;
+}
+
+/* radial chart */
+.radial{
+    display: flex;
+    justify-content: center;
+    position:relative;
+    bottom: 10px ;
+}
+.gauge {
+    width: 80%;
+    max-width: 200px;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    color: #004033;
+  }
+  
+  .gauge__body {
+    width: 100%;
+    height: 0;
+    padding-bottom: 50%;
+    background: #b4c0be;
+    position: relative;
+    border-top-left-radius: 100% 200%;
+    border-top-right-radius: 100% 200%;
+    overflow: hidden;
+  }
+  
+  .gauge__fill {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: inherit;
+    height: 100%;
+    background: #009578;
+    transform-origin: center top;
+    transform: rotate(0.25turn);
+    transition: transform 0.2s ease-out;
+  }
+  
+  .gauge__cover {
+    width: 75%;
+    height: 150%;
+    background: #303743;
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+  
+    /* Text */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25%;
+    box-sizing: border-box;
+  }

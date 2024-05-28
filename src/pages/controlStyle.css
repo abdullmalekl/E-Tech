@@ -1,0 +1,71 @@
+.container {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: auto 1fr;
+    height: 100vh;
+  }
+  
+  .header {
+    grid-column: 1 / -1;
+    background-color: #e7e7e7;
+    /* أضف المزيد من التنسيقات */
+  }
+  
+  .sidebar {
+    background-color: #2f2f2f;
+    color: white;
+    /* أضف المزيد من التنسيقات */
+  }
+  
+  .profile {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /* أضف المزيد من التنسيقات */
+  }
+  
+  .main-content {
+    background-color: #ffffff;
+    padding: 20px;
+    /* أضف المزيد من التنسيقات */
+  }
+  
+  .user-interaction {
+    /* أضف التنسيقات لمنطقة البحث والعنوان */
+  }
+  
+  .user-list table {
+    width: 100%;
+    /* أضف المزيد من التنسيقات */
+  }
+  
+  /* تنسيقات الجدول */
+  table {
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* أضف المزيد من التنسيقات أدناه */
+  

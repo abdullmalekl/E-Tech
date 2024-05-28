@@ -1,0 +1,110 @@
+.contents{
+    background-color: white;
+    width: 90.2%;
+    float: left;
+    display: grid;
+    grid-template-columns: 1fr 100px; 
+    grid-gap: 20; 
+    height: auto; 
+    overflow-y: hidden;
+  overflow-x: hidden;
+    
+}
+#def{
+  position: relative;
+  bottom: 5%;
+  margin-bottom: 3%;
+}
+#lNavbar{
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+.sidebar {
+    height: 100%; /* يملأ الارتفاع بالكامل */
+    position: fixed;
+    background-color: #f2f2f2; 
+    overflow-y: auto;
+}
+#navigateSideBar{
+  background-color: rgb(232, 231, 231);
+
+}
+#lImage{
+ position: relative;
+ left: 36%;
+ margin-top: 4%;
+ border-radius: 4%;
+}
+#lTitle{
+  position: relative;
+  left: 40%;
+  top:2%;
+}
+#lcontent{
+  margin-left: 2%;
+  overflow-y: hidden;
+
+}
+#lpcontent{
+  margin-left: 2%;
+  margin-top: 4%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+
+}
+
+#lpTitle{
+  position: relative;
+  left: 46%;
+  margin-top: 4%;
+}
+#PTitle{
+  position: relative;
+  left: 45%;
+  margin-top: 2%;
+}
+#lessonsbtn{
+  position: relative;
+  left: 80%;
+  font-size: 1.2rem;
+  font-family: 'Markazi text';
+}
+#projectbtn{
+  position: relative;
+  top:105%;
+  right: 190%;
+  width:130%;
+  height: 70%;
+  font-size: 1.2rem;
+  font-family: 'Markazi text';
+}
+#partbtn{
+  font-size: 1.2rem;
+  font-family: 'Markazi text';
+}
+#partsbtn{
+  font-size: 1.2rem;
+  font-family: 'Markazi text';
+  width:12%;
+  position: relative;
+  left:8%;
+}
+#lessonbtn{
+  position: relative;
+  top:105%;
+  right: 190%;
+  width:120%;
+  height: 50%;
+  font-size: 1.2rem;
+  font-family: 'Markazi text';
+}
+#lastbtn{
+  font-size: 1.2rem;
+  font-family: 'Markazi text';
+  position:absolute;
+  left:66%;
+  height: 7%;
+  top:14.5%;
+}

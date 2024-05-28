@@ -1,0 +1,13 @@
+.oldest:hover{
+    cursor: pointer;
+}
+.newst:hover{
+    cursor: pointer;
+}
+#ls{
+    position: relative;
+    right: 5% !important
+}
+#hompage:hover{
+    color:  #61DBFB !important; 
+}

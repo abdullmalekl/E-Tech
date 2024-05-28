@@ -1,0 +1,73 @@
+.main-content{
+   
+    display: grid;
+    grid-template-columns: 1fr 270px; /* يحدد عرض الشريط الجانبي والمحتوى الرئيسي */
+    grid-gap: 20; /* يحدد المسافة بين الشريط الجانبي والمحتوى الرئيسي */
+    height: 100vh; /* يحدد ارتفاع الصفحة بالكامل */
+    overflow-y: hidden; /* يحدد المسافة بين الشريط الجانبي والمحتوى الرئيسي */
+}
+.sidebar {
+    height: 100%; /* يملأ الارتفاع بالكامل */
+    position: fixed;
+    top: 0;
+    left: 0; /* تم تغيير القيمة إلى left بدلاً من right */
+    background-color: #f2f2f2; /* لون خلفية الشريط الجانبي */
+    overflow-y: auto; /* يضيف scrollbar للشريط الجانبي */
+  }
+.content{
+    position: relative;
+    overflow-y: auto; /* يضيف scrollbar للمحتوى الرئيسي */
+    height: 100%;
+}
+
+.scrollable-content{
+    width: 490px;
+    padding-right: 300px;
+}
+#dropdownUser1{
+    position: relative;
+    top:8px;
+    left: 60px;
+    direction: ltr !important;
+}
+#usres:hover{
+    background-color: #425765 !important;
+}
+#home:hover{
+    background-color: #425765 !important;
+}
+#lessons:hover{
+    background-color: #425765 !important;
+}
+#projects:hover{
+    background-color: #425765 ;
+}
+#devices:hover{
+    background-color: #425765 ;
+}
+/* table style */
+.thead{
+    font-family: 'Markazi text';
+    font-size: 18px;
+    background-color: #a09c9c !important;
+}
+.radus{
+    border-radius: 24px !important;
+}
+#table{
+
+    box-shadow: 4px 4px 4px 4px #D9D9D9 ;
+}
+#setting:hover{
+    cursor: pointer;
+    top:-2px;
+}
+.card:hover{
+    cursor: pointer;
+    opacity: 0.75  ;
+    scale: 1.02;
+}
+#eDbrand:hover{
+    cursor: pointer;
+    color: #61DBFB !important;
+}

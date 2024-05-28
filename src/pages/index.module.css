@@ -1,0 +1,22 @@
+.mainimg{
+    position: 'absolute';
+    width: 1193.3px !important;
+    height: 600;
+     left: 0;
+      top: 60;
+}
+#lessonTitle:hover{
+    scale: 1.1;
+}
+#cluodTitle:hover{
+    scale: 1.1;
+}
+#lessonBox:hover{
+    scale: 1.1;
+}
+#cloudBox:hover{
+    scale: 1.1;
+}
+#projectsBox:hover{
+    scale: 1.1;
+}
